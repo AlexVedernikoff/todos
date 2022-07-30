@@ -21,9 +21,6 @@ export default class Task extends Component {
     event.preventDefault();
     this.props.onEdit(this.props.id, this.state.label);
     this.editing = false;
-    // this.setState((state) => {
-    //   label: state.label
-    // });
   };
 
   componentDidMount() {
